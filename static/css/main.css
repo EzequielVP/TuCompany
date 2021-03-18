@@ -1,0 +1,118 @@
+.bienvenido {
+    background: url("../images/fondo-ch.jpg");
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fixed-top {
+    background-color: rgb(0, 0, 0, .75);
+}
+
+.btn-primary {
+    background-color: #F05F40 !important;
+    border-color: #b93e24 !important;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #fd7355;
+    border-color: #F05F40;
+}
+
+
+/* Navbar */
+
+.navbar-brand,
+.nav-item,
+.nav-link,
+.fa-bars {
+    color: #ffffff !important;
+    text-align: center;
+    font-size: 20px;
+    margin: .2rem .7rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    background: #F05F40;
+}
+
+
+/*texto de presentacion*/
+
+.texto-bienvenido {
+    margin-top: 8rem;
+}
+
+.texto-grande {
+    font-size: 2.5rem;
+    padding: auto;
+}
+
+
+/* SECCION QUIENES SOMOS */
+
+.somos {
+    background: #F05F40;
+}
+
+
+/* Estilos de servicios */
+
+.iconos {
+    color: #F05F40;
+    font-size: 6rem;
+}
+
+.servicios h3 {
+    font-weight: bold;
+}
+
+
+/* NUESTROS PROYECTOS */
+
+.proyectos {
+    background: #424141;
+    color: #fff;
+}
+
+.proyectos a {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.proyectos img {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    min-width: 100%;
+}
+
+.proyectos a:hover img {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+/*Estilos bloque Pie de pagina*/
+
+.footer {
+    color: #fff;
+    background: #222222;
+}
+
+
+/*EMPIEZAN LOS MEDIAS QUERIES*/
+
+@media(min-width: 768px) {
+    .bienvenido {
+        background: url("../images/fondo-G.jpg");
+        background-size: cover;
+    }
+}
